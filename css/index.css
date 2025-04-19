@@ -1,0 +1,68 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 2em;
+}
+
+.about, .websites, .socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    color: slategrey;
+}
+
+article {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article a {
+    color: #d68928;
+    text-decoration: none;
+}
+
+.social-link {
+    color: cornflowerblue;
+}
+
+
+article a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
