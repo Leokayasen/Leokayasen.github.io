@@ -1,0 +1,15 @@
+.progress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.flux {width: 50%; background-color: cornflowerblue; text-align: center;}
+.scu {width: 35%; background-color: cornflowerblue; text-align: center;}

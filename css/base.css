@@ -40,7 +40,7 @@ main {
     padding: 2em;
 }
 
-.about, .websites, .socials {
+.about, .websites, .socials, .project-about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
